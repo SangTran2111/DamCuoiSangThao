@@ -415,19 +415,22 @@ const DAYS = [
     ]
   },
   {
-    id:"d4", num:"04", dow:"Thứ Năm", label:"12", title:"Gặp mặt gia đình",
+    id:"d4", num:"04", dow:"Thứ Năm", label:"12", title:"Lễ dạm ngõ",
     events:[
-      { at:"2026-12-04T09:00:00+07:00", approx:"Trong ngày", title:"Chú rể cùng mẹ đến nhà bố Sơn",
-        desc:"Gặp mặt và chào hỏi cùng các bác trong gia đình.",
-        people:["Chú rể","Mẹ chú rể"], place:"homeSon" }
+      { at:"2026-12-04T09:00:00+07:00", approx:"Trong ngày", title:"Lễ Dạm Ngõ · Lễ Xin Cưới",
+        desc:"Chú rể cùng mẹ và đại diện gia đình mang tráp sang nhà gái để thưa chuyện và chính thức đặt vấn đề xin cưới. Hai gia đình gặp mặt, chào hỏi và bàn bạc về hôn lễ.",
+        people:["Chú rể","Mẹ chú rể","Cô dâu","Gia đình bố Sơn"], place:"homeSon" }
     ]
   },
   {
-    id:"d5", num:"05", dow:"Thứ Sáu", label:"12", title:"Đón khách & tiệc thân mật",
+    id:"d5", num:"05", dow:"Thứ Sáu", label:"12", title:"Đón khách & chuẩn bị",
     events:[
       { at:"2026-12-05T10:00:00+07:00", approx:"Trong ngày", title:"Gia đình và bạn bè nhà trai ra Hà Nội",
         desc:"7 thành viên gia đình cùng 4 người bạn có mặt tại Hà Nội và nhận phòng tại khu biệt thự — Trung tâm Hội nghị Quốc gia.",
         people:["Gia đình nhà trai (7)","Bạn bè (4)"], place:"ncc" },
+      { at:"2026-12-05T14:00:00+07:00", approx:"Buổi chiều", title:"Set up sân khấu và thiết bị",
+        desc:"Ê-kíp dựng sân khấu, lắp đặt âm thanh, ánh sáng và hoàn thiện trang trí cho ngày hôm sau.",
+        people:["Ê-kíp tổ chức"], place:"ncc" },
       { at:"2026-12-05T18:00:00+07:00", approx:"Buổi tối", title:"Tiệc thân mật tại nhà mẹ Hòa",
         desc:"Bữa tiệc thân mật cùng gia đình nhà gái.",
         people:["Cô dâu","Chú rể","Gia đình nhà trai"], place:"homeHoa" }
@@ -436,6 +439,10 @@ const DAYS = [
   {
     id:"d6", num:"06", dow:"Thứ Bảy", label:"12", title:"Hôn lễ", main:true,
     events:[
+      { at:"2026-12-06T08:00:00+07:00", time:"8:00", title:"Duyệt chương trình & chạy thử sân khấu",
+        desc:"Rà soát toàn bộ kịch bản cùng MC và ê-kíp, chạy thử sân khấu, âm thanh và ánh sáng trước giờ lễ.",
+        people:["Cô dâu & Chú rể","MC","Ê-kíp tổ chức"], place:"ncc" },
+
       { at:"2026-12-06T13:00:00+07:00", time:"13:00", title:"Lễ Xin Dâu",
         desc:"Chú rể cùng mẹ và đại diện gia đình đến nhà bố cô dâu thực hiện nghi thức xin dâu và dâng hương bái tạ gia tiên. Sau khi hoàn tất nghi lễ, cô dâu và chú rể di chuyển về khu biệt thự để chuẩn bị cho các nghi thức tiếp theo.",
         people:["Chú rể","Mẹ chú rể","Đại diện hai họ"], place:"homeSon" },
